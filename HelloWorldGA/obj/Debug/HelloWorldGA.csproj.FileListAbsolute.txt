@@ -1,0 +1,9 @@
+c:\users\jezdebon\documents\visual studio 2013\Projects\HelloWorldGA\HelloWorldGA\bin\Debug\HelloWorldGA.exe.config
+c:\users\jezdebon\documents\visual studio 2013\Projects\HelloWorldGA\HelloWorldGA\obj\Debug\HelloWorldGA.csprojResolveAssemblyReference.cache
+c:\users\jezdebon\documents\visual studio 2013\Projects\HelloWorldGA\HelloWorldGA\obj\Debug\HelloWorldGA.Form1.resources
+c:\users\jezdebon\documents\visual studio 2013\Projects\HelloWorldGA\HelloWorldGA\obj\Debug\HelloWorldGA.Properties.Resources.resources
+c:\users\jezdebon\documents\visual studio 2013\Projects\HelloWorldGA\HelloWorldGA\obj\Debug\HelloWorldGA.csproj.GenerateResource.Cache
+c:\users\jezdebon\documents\visual studio 2013\Projects\HelloWorldGA\HelloWorldGA\bin\Debug\HelloWorldGA.exe
+c:\users\jezdebon\documents\visual studio 2013\Projects\HelloWorldGA\HelloWorldGA\bin\Debug\HelloWorldGA.pdb
+c:\users\jezdebon\documents\visual studio 2013\Projects\HelloWorldGA\HelloWorldGA\obj\Debug\HelloWorldGA.exe
+c:\users\jezdebon\documents\visual studio 2013\Projects\HelloWorldGA\HelloWorldGA\obj\Debug\HelloWorldGA.pdb
