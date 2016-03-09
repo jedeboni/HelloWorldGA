@@ -23,6 +23,11 @@ namespace HelloWorldGA
 
         private void button1_Click(object sender, EventArgs e)
         {
+            int _POPSIZE = int.Parse(txtPOPSIZE.Text);
+            double _ELITE = double.Parse(txtELITERATE.Text); Console.WriteLine("ELITERATE =" + _ELITE.ToString());
+            double _MUTATION = double.Parse(txtMUTATIONRATE.Text); Console.WriteLine("MUTATION =" + _MUTATION.ToString());
+            ga.setParameter(_POPSIZE, _ELITE, _MUTATION);
+            
             GA_TARGET = textBox1.Text;
             ga.setTARGET(GA_TARGET);
             ga.initPopulation();
@@ -41,6 +46,11 @@ namespace HelloWorldGA
                }
            } while (i < ga.getMaxIteration() );           
             
+        }
+
+        private void rtfLOG_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
     }

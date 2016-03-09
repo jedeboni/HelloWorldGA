@@ -10,14 +10,20 @@ namespace HelloWorldGA
     {
         private String        GA_TARGET;
         private char[]        GA_TARGET_CHAR;
-        private static int    GA_POPSIZE = 2046;
+        private int GA_POPSIZE = 2026;
+        private static int    GA_POPSIZE_MAX = 2046;
         private static int    GA_MAXITERATION = 1024;
-        private static double GA_ELITRATE = 0.01;
-        private static double GA_MUTATIONRATE = 0.25;
-        private String[] ga_population = new String[GA_POPSIZE];
-        private double[] ga_fitness = new double[GA_POPSIZE];
+        private double GA_ELITRATE = 0.1;
+        private double GA_MUTATIONRATE = 0.05;
+        private String[] ga_population = new String[GA_POPSIZE_MAX];
+        private double[] ga_fitness = new double[GA_POPSIZE_MAX];
         private Random rand = new Random();
 
+        public void setParameter(int _POPSIZE, double _ELITRATE, double _MUTATIONRATE){
+            GA_POPSIZE = _POPSIZE;
+            GA_ELITRATE = _ELITRATE;
+            GA_MUTATIONRATE = _MUTATIONRATE;
+        }
 
         public int getMaxIteration()
         {
