@@ -13,3 +13,14 @@ descobrir uma frase com base apenas no tamanho da frase e em uma função que av
 ## Exemplo da Interface do Programa
 
 ![](/imagem/HelloWorldGA.JPG)
+
+## Uso do Programa
+
+TARGET - String com números sem acento, frase que o programa vai tentar descobrir
+POPSIZE - (inteiro) tamanho da população de cada geração, default 1024
+ELITRATE - (real<1.0) fração da população que é sobrevive para a próxima geração, default 0.1
+MUTATIONRATE (real<1.0) fração da população que recebe uma mutação default = 0.25
+RunGA - botão que executa a solução
+
+Na janela da solução mostra a evolução do elemento mais qualificado de cada geração e sua nota.
+A menor nota é 0, que mostra que a distância entre a frase proposta e a descoberta é 0
